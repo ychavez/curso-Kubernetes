@@ -1,0 +1,9 @@
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\MiApi.exe
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\appsettings.json
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\MiApi.dll
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\MiApi.deps.json
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\MiApi.runtimeconfig.json
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\MiApi.pdb
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Yael\CursoKubernetes\Kubernetes\MiApi\bin\Release\net9.0\publish\Microsoft.OpenApi.dll

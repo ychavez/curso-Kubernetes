@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: miappaspnet
+  labels:
+    app: miappaspnet
+spec:
+  containers:
+    - name: miappaspnet
+      image: miapi:1.0
+      ports:
+        - containerPort: 80
+#crear deployment con 5 replicas de la imagen miapi:1.0
+#crear una nueva version de la imagen miapi:2.0 y actualizar el deployment para que use esta nueva version

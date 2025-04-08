@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9mv2GyO4Pq0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yael\\CursoKubernetes\\Kubernetes\\MiApi\\MiApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yael\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "C:\\Users\\Yael\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
