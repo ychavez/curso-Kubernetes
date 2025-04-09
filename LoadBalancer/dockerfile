@@ -1,0 +1,10 @@
+FROM nginx:latest
+
+RUN echo '<html><body>Hola desde el contenedor de Nginx $(hostname)</html></body>' > /usr/share/nginx/html/index.html
+
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+
