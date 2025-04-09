@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mi-app
+  name: mi-app-blazor
 spec:
   replicas: 10
   selector:
     matchLabels:
-      app: mi-app
+      app: mi-app-blazor
   template:
     metadata:
       labels:
-        app: mi-app
+        app: mi-app-blazor
     spec:
       containers:
-        - name: mi-app
-          image: mi-nginx-pod:v3
+        - name: mi-app-blazor
+          image: miblazor:dev
           ports:
             - containerPort: 80
 
@@ -22,10 +22,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mi-app-service
+  name: mi-app-service-blazor
 spec:
   selector:
-    app: mi-app
+    app: mi-app-blazor
   type: LoadBalancer
   ports:
     - protocol: TCP
